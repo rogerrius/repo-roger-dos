@@ -1,0 +1,19 @@
+{
+  "name": "repo-roger-dos",
+  "version": "1.0.0",
+  "description": "Web server made on Node",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "rogerrius",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

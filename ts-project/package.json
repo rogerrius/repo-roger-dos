@@ -1,0 +1,13 @@
+{
+  "name": "ts-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Roger",
+  "type": "commonjs",
+  "main": "build/index.js",
+  "scripts": {
+    "prestart": "tsc -b",
+    "start": "node build/index.js"
+  }
+}
